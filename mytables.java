@@ -47,9 +47,9 @@ public class mytables
 		String num_tab_rows = new String(); Vector num_tab_rowss = new Vector(); int num_tab_rows_maxlen;
 		String create_time = new String(); Vector create_times = new Vector(); int create_time_maxlen;
 
-		String mysql_username = "root";
-		String mysql_user_password = "archer-nx01";
-		String url = "jdbc:mysql://localhost/qwlc?autoReconnect=true&useSSL=false";
+		String mysql_username = "my_user";
+		String mysql_user_password = "my_pass";
+		String url = "jdbc:mysql://localhost/my_database?autoReconnect=true&useSSL=false";
 		String db_error_message = new String();
 		if (args.length == 0) {
 			schema = "qwlc";
